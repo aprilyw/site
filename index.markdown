@@ -6,3 +6,5 @@ layout: default
 ---
 
 this website is under construction!
+
+feel free to look around in the meantime.
