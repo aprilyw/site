@@ -1,0 +1,50 @@
+<!-- source: https://threejs.org/docs/#manual/en/introduction/Creating-a-scene -->
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+            <style>
+                .threejs-canvas {   display: block; margin-left: auto; margin-right: auto; }
+            </style>
+</head>
+<div class="threejs-canvas">
+
+    <script> 
+        var width = 700;
+        var height = 392;
+
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera( 75, width / height, 0.1, 1000 );
+
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize( width, height );
+        $(".threejs-canvas").append( renderer.domElement );
+
+
+
+        var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+        var material = new THREE.MeshPhongMaterial( { color: 0x0250de } );
+        var cube = new THREE.Mesh( geometry, material );
+        scene.add( cube );
+
+        var light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 1 );
+        scene.add( light );
+        camera.position.z = 5;
+
+        var animate = function () {
+            requestAnimationFrame( animate );
+
+            cube.rotation.x += 0.01;
+            cube.rotation.y += 0.01;
+
+            renderer.render( scene, camera );
+        };
+
+        animate();
+
+    </script>
+</div>
+
+</html>
