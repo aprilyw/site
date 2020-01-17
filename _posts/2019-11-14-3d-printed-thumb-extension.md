@@ -8,7 +8,7 @@ categories: HCI 3D-printing prototyping
 A 3D printed extension for your thumb. 
 Designed as part of an assignment for Intro to HCI. 
 
-The following video demonstrates a shake test and demonstration of usability with a Fitt's Law tester.
+The following video demonstrates a shake test and usability with a Fitt's Law tester.
 
 {% include youtubePlayer.html id="x8ssOr4N9Ic" %}
 
