@@ -1,0 +1,47 @@
+.about-section {
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-rows: 1fr 1fr;  
+}
+
+.about-section--head {
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: 1fr 1fr;  
+}
+
+.list_content {
+	margin-bottom: 0;
+}
+
+.list_title {
+	font-weight: 650;
+}
+
+.list_content--position {
+	font-style: italic;
+}
+
+.list_right {
+	display: flex;
+	justify-content: right;
+	flex-direction: column;
+	text-align: right;
+}
+.list_below {
+	font-weight: 200;
+}
+
+.courses {
+	display: flex;
+	align-content: flex-start;
+	margin-bottom: 0;
+}
+
+.about-courses {
+	margin-bottom: 15px;
+}
+
+.about-experience {
+	margin-bottom: 15px;
+}
