@@ -87,7 +87,9 @@ languages:
   - Python (pandas, boto3, numpy)
   - C
   - HTML, CSS, JS
-  - English (fluent), Mandarin (fluent), German (beginner)
+  - English
+  - Mandarin
+  - German (beginner)
 
 ---
 <div class="about-wrapper">
@@ -98,12 +100,29 @@ languages:
       </div>
     </div>
     <div class="about-attributes">
-        <div class="about-courses">
-            <h3 class="about-section-title">Highlighted Courses</h3>
+
+      <div class="triptych">
+        <div class="courses">
+            <h3 class="triptych-title">Courses</h3>
             {% for courses-item in page.courses %}
-                <div class="courses">{{ courses-item }}</div>
+                <div class="item">{{ courses-item }}</div>
             {% endfor %}
         </div>
+        <div class="tools">
+            <h3 class="triptych-title">Tools</h3>
+            {% for item in page.tools %}
+                <div class="item">{{ item }}</div>
+            {% endfor %}
+        </div>
+        <div class="languages">
+            <h3 class="triptych-title">Languages</h3>
+            {% for item in page.languages %}
+                <div class="item">{{ item }}</div>
+            {% endfor %}
+        </div>
+      </div>
+
+
         <div class="about-experience">
             <h3 class="about-section-title">Experience</h3>
             <div class="about-section">

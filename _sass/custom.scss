@@ -32,14 +32,15 @@
 	font-weight: 200;
 }
 
-.courses {
-	display: flex;
-	align-content: flex-start;
-	margin-bottom: 0;
+.triptych {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 15px;
 }
 
-.about-courses {
-	margin-bottom: 15px;
+.item {
+	font-weight:200;
 }
 
 .about-experience {
