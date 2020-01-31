@@ -46,5 +46,9 @@ categories: HCI psych podcasts interesting
 
 [Electronic library. Download books free. Finding books](https://b-ok.org/)
 
-
 [The Past, Present, and Future of Virtual and Augmented Reality Research: A Network and Cluster Analysis of the Literature](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6232426/)
+
+[Technological Singularity](https://en.wikipedia.org/wiki/Technological_singularity)
+> University of California, Berkeley, philosophy professor John Searle writes: [Computers] have, literally ..., no intelligence, no motivation, no autonomy, and no agency. We design them to behave as if they had certain sorts of psychology, but there is no psychological reality to the corresponding processes or behavior. ... [T]he machinery has no beliefs, desires, [or] motivations.[29]
+
+
