@@ -5,9 +5,4 @@
 layout: default
 ---
 
-this website is under construction!
-
-feel free to look around in the meantime.
-
-
-{% include threejs_scene.html %}
+you've found your way to my tiny namespace on the internet. feel free to explore & poke around.
