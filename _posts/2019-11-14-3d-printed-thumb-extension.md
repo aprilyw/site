@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3d printed thumb extension
-categories: HCI 3D-printing prototyping
+category: projects
 
 ---
 

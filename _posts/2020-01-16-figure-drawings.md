@@ -1,7 +1,7 @@
 ---
 layout: post
 title: figure drawings
-categories: figure art screenprinting
+category: [art, journal]
 
 ---
 
