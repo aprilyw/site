@@ -11,4 +11,6 @@ in an effort to habituate within myself a disposition towards creation rather th
 ## april
 11 - made an online journal entry, made changes to site (not reallly art but eh)
 12 - sketch of River
+13 - sketch of thrift store cups & plates
+
 
